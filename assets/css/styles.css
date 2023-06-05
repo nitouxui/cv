@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Source Code Pro', monospace;
+    height: 100%;
+    font-size: 1rem;
+    text-align: justify;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: #1b1b1b;
+    color: white;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+ h1 {
+    margin: 0;
+    font-size: 3rem;
+ }
+.logonav {
+    font-weight: 600;
+}
+.button{
+    text-decoration: underline;
+    color: white;
+}
+
+.button:hover{
+    font-weight: 600;
+}
+
+.parrafotit {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    width: 28rem;
+}
+
+.parrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.hero{
+    background-image: linear-gradient(rgba(80, 37, 83, 0.799), rgba(20, 20, 20, 0.977)), url(../img/hero.jpg);
+    background-size: cover;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10rem 4rem;
+}
+
+.info {
+    color: white;
+
+}
+
+.fotoperfil {
+    max-height: 20vh;
+}
+
+.educacion {
+    padding: 2rem ;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    text-align:right;
+    
+
+}
+
+.experiencialaboral {
+    padding:  2rem ;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    
+   
+}
+
+
+
+.tituloexp {
+    font-weight: 600;
+}
+
+.career {
+    display: flex;
+    flex-direction: row;
+}
+
+.portafolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f3f3f3;
+}
+
+.contenedorportafolio {
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgport {
+    max-height: 8rem;
+    border-radius: 0.5rem;
+}
+
+
+.itemporta {
+    padding: 1rem;
+    border: 1px solid #a7a7a7;
+    border-radius: 0.5rem;
+    background-color: white;
+    text-align: center;
+}
